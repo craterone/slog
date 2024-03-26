@@ -1,4 +1,4 @@
-module github.com/gookit/slog
+module github.com/craterone/slog
 
 go 1.19
 
