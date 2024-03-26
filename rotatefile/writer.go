@@ -183,6 +183,7 @@ func (d *Writer) rotatingByTime() error {
 		return nil
 	}
 
+	fmt.Printf("Rotate at %d %d\n", d.nextRotatingAt, now.Unix())
 	// generate new file path.
 	// eg: /tmp/error.log => /tmp/error.log.20220423_1600
 	file := d.cfg.Filepath + "." + now.Format(d.suffixFormat)

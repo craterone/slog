@@ -101,7 +101,7 @@ func (rt RotateTime) TimeFormat() (suffixFormat string) {
 	suffixFormat = "20060102_1500" // default is levelHour
 	switch rt.level() {
 	case levelDay:
-		suffixFormat = "20060102"
+		suffixFormat = "2006-01-02"
 	case levelHour:
 		suffixFormat = "20060102_1500"
 	case levelMin:
