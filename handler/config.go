@@ -4,11 +4,11 @@ import (
 	"io"
 	"io/fs"
 
+	"github.com/craterone/slog"
+	"github.com/craterone/slog/bufwrite"
+	"github.com/craterone/slog/rotatefile"
 	"github.com/gookit/goutil/errorx"
 	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/slog"
-	"github.com/gookit/slog/bufwrite"
-	"github.com/gookit/slog/rotatefile"
 )
 
 // the buff mode consts

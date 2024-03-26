@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"github.com/craterone/slog"
 	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/slog"
 )
 
 // JSONFileHandler create new FileHandler with JSON formatter

@@ -5,7 +5,7 @@ package handler
 import (
 	"log/syslog"
 
-	"github.com/gookit/slog"
+	"github.com/craterone/slog"
 )
 
 // SysLogOpt for syslog handler

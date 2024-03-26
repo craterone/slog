@@ -4,7 +4,7 @@ import (
 	"net/smtp"
 	"strconv"
 
-	"github.com/gookit/slog"
+	"github.com/craterone/slog"
 )
 
 // EmailOption struct

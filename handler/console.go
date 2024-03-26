@@ -3,8 +3,8 @@ package handler
 import (
 	"os"
 
+	"github.com/craterone/slog"
 	"github.com/gookit/color"
-	"github.com/gookit/slog"
 )
 
 /********************************************************************************

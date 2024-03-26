@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"github.com/craterone/slog/rotatefile"
 	"github.com/gookit/goutil/basefn"
-	"github.com/gookit/slog/rotatefile"
 )
 
 // NewRotateFileHandler instance. It supports splitting log files by time and size

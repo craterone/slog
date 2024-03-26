@@ -8,8 +8,8 @@ import (
 	"os"
 	"sync"
 
+	"github.com/craterone/slog"
 	"github.com/gookit/goutil/fsutil"
-	"github.com/gookit/slog"
 )
 
 // DefaultBufferSize sizes the buffer associated with each log file. It's large

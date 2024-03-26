@@ -3,7 +3,7 @@ package handler
 import (
 	"io"
 
-	"github.com/gookit/slog"
+	"github.com/craterone/slog"
 )
 
 // IOWriterHandler definition

@@ -4,8 +4,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/gookit/slog"
-	"github.com/gookit/slog/bufwrite"
+	"github.com/craterone/slog"
+	"github.com/craterone/slog/bufwrite"
 )
 
 // NewBuffered create new BufferedHandler
